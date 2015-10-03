@@ -1,0 +1,44 @@
+{
+  "name": "cirru-tree-updater",
+  "version": "0.0.1",
+  "description": "Cirru editor core updater",
+  "main": "lib/updater.js",
+  "scripts": {
+    "test": "cirru-script src/main.cirru"
+  },
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "keywords": [
+    "cirru"
+  ],
+  "devDependencies": {
+    "autoprefixer-loader": "^3.0.0",
+    "cirru-script": "^0.2.3",
+    "cirru-script-loader": "0.1.0",
+    "css-loader": "^0.17.0",
+    "del": "^1.2.1",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
+    "gulp": "^3.9.0",
+    "gulp-cirru-script": "^0.1.4",
+    "react-hot-loader": "^1.3.0",
+    "rsyncwrapper": "^0.4.3",
+    "run-sequence": "^1.1.2",
+    "stir-template": "^0.1.4",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "immutable": "^3.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cirru/tree-updater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cirru/tree-updater/issues"
+  },
+  "homepage": "https://github.com/Cirru/tree-updater"
+}
